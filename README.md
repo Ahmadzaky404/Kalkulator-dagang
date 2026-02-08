@@ -1,6 +1,21 @@
-# Purchase Calculator
+# 💰 Purchase Calculator (Kalkulator Dagang)
 
-Aplikasi Purchase Calculator untuk menghitung transaksi pembelian dan melacak hasil dagang. Aplikasi ini menyediakan antarmuka CLI (Command Line Interface) yang mudah digunakan untuk kasir dan pemilik toko.
+Aplikasi kalkulator pembelian berbasis **Node.js** dengan fitur lengkap untuk menghitung kembalian, menyimpan transaksi, dan melihat statistik penjualan. Tersedia dalam 2 versi: **Web UI** (tampilan grafis) dan **CLI** (terminal).
+
+**✨ Fitur Utama:**
+- 🛒 Perhitungan kembalian otomatis dengan support multiple items
+- 💾 Penyimpanan transaksi otomatis
+- 📊 Statistik penjualan (total revenue & jumlah transaksi)
+- 📅 Filter transaksi berdasarkan hari atau bulan
+- 🎨 Desain minimalis dan user-friendly
+- ✅ Validasi input lengkap
+- 🧪 Test coverage komprehensif (33 unit tests)
+
+**🛠️ Tech Stack:**
+- **Backend**: Node.js + ES6 Modules
+- **Frontend**: HTML, CSS, JavaScript (Vanilla) + Tailwind CSS
+- **Testing**: Jest + fast-check
+- **Storage**: localStorage (Web) / JSON file (CLI)
 
 ## Fitur
 
@@ -198,9 +213,13 @@ purchase-calculator/
 ## Teknologi yang Digunakan
 
 - **Runtime**: Node.js (v18+)
+- **Backend**: Node.js HTTP Server
 - **Language**: JavaScript (ES6+ dengan ES Modules)
+- **Frontend**: Vanilla JavaScript + Tailwind CSS
 - **Testing**: Jest + fast-check
-- **Storage**: JSON file-based storage
+- **Storage**: 
+  - Web version: Browser localStorage
+  - CLI version: JSON file-based storage
 - **CLI**: Node.js readline module
 
 ## Fitur Keamanan dan Validasi
