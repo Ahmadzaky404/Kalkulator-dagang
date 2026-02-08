@@ -1,0 +1,29 @@
+{
+  "name": "purchase-calculator",
+  "version": "1.0.0",
+  "description": "Aplikasi Purchase Calculator untuk menghitung transaksi pembelian dan melacak hasil dagang",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:web": "node server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "keywords": [
+    "calculator",
+    "purchase",
+    "transaction",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "fast-check": "^3.15.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Testing
+coverage/
+
+# Data files
+data/transactions.json
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
