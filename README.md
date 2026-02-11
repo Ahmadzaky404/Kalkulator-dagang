@@ -291,4 +291,3 @@ Untuk pertanyaan atau saran, silakan buat issue di repository ini.
 
 ---
 
-**Dibuat dengan ❤️ untuk memudahkan perhitungan transaksi pembelian**
